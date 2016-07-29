@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CAEmitterLayerDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>WYAnimation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C3D4B5671D4B4B3F00DCCC67</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3D4B5851D4B4D6900DCCC67</key>
 		<dict>
 			<key>primary</key>
 			<true/>
