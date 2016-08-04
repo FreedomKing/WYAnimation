@@ -56,10 +56,10 @@
         cell.emissionLongitude = (CGFloat) M_PI + M_PI_2;
         
         //differ color
-        cell.color = [[UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:1.0] CGColor];
-        cell.redRange = 0.5;
-        cell.blueRange = 0.5;
-        cell.greenRange = 0.5;
+//        cell.color = [[UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:1.0] CGColor];
+//        cell.redRange = 0.5;
+//        cell.blueRange = 0.5;
+//        cell.greenRange = 0.5;
         //加速度
         cell.yAcceleration = 50;
         
