@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "WYAEmitterViewController.h"
 #import "WY3DTransformViewController.h"
+#import "WYAnimatingGradientLabelViewController.h"
 
 @interface ViewController () <UITableViewDelegate,
                               UITableViewDataSource>
@@ -45,6 +46,8 @@
         case 1:
             title = @"3DTransform(3D变换)";
             break;
+        case 2:
+            title = @"AnimatingGradient(渐变标签)";
         default:
             break;
     }
@@ -53,7 +56,7 @@
 
 #pragma mark - table view delegate and datasource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return 3;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -80,6 +83,9 @@
             break;
         case 1:
             instance = [WY3DTransformViewController class];
+            break;
+        case 2:
+            instance = [WYAnimatingGradientLabelViewController class];
             break;
         default:
             break;
