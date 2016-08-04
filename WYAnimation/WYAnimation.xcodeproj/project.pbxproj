@@ -10,6 +10,9 @@
 		C3A7B81B1D52D1EE0096689A /* WYAEmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7B81A1D52D1EE0096689A /* WYAEmitterViewController.m */; };
 		C3A7B8201D52D2810096689A /* WYAEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7B81D1D52D2810096689A /* WYAEmitterView.m */; };
 		C3A7B8211D52D2810096689A /* WYAUpwardEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7B81F1D52D2810096689A /* WYAUpwardEmitterView.m */; };
+		C3A7B8251D52DE500096689A /* WY3DTransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7B8241D52DE500096689A /* WY3DTransformView.m */; };
+		C3A7B8271D52DF680096689A /* WY3DTransformContainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A7B8261D52DF680096689A /* WY3DTransformContainView.xib */; };
+		C3A7B82A1D52E3A00096689A /* WY3DTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7B8291D52E3A00096689A /* WY3DTransformViewController.m */; };
 		C3D4B56D1D4B4B3F00DCCC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B56C1D4B4B3F00DCCC67 /* main.m */; };
 		C3D4B5701D4B4B3F00DCCC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B56F1D4B4B3F00DCCC67 /* AppDelegate.m */; };
 		C3D4B5731D4B4B3F00DCCC67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B5721D4B4B3F00DCCC67 /* ViewController.m */; };
@@ -27,6 +30,11 @@
 		C3A7B81D1D52D2810096689A /* WYAEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAEmitterView.m; sourceTree = "<group>"; };
 		C3A7B81E1D52D2810096689A /* WYAUpwardEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAUpwardEmitterView.h; sourceTree = "<group>"; };
 		C3A7B81F1D52D2810096689A /* WYAUpwardEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAUpwardEmitterView.m; sourceTree = "<group>"; };
+		C3A7B8231D52DE500096689A /* WY3DTransformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WY3DTransformView.h; sourceTree = "<group>"; };
+		C3A7B8241D52DE500096689A /* WY3DTransformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WY3DTransformView.m; sourceTree = "<group>"; };
+		C3A7B8261D52DF680096689A /* WY3DTransformContainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WY3DTransformContainView.xib; sourceTree = "<group>"; };
+		C3A7B8281D52E3A00096689A /* WY3DTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WY3DTransformViewController.h; sourceTree = "<group>"; };
+		C3A7B8291D52E3A00096689A /* WY3DTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WY3DTransformViewController.m; sourceTree = "<group>"; };
 		C3D4B5681D4B4B3F00DCCC67 /* WYAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D4B56C1D4B4B3F00DCCC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3D4B56E1D4B4B3F00DCCC67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +83,18 @@
 			path = EmitterAnimation;
 			sourceTree = "<group>";
 		};
+		C3A7B8221D52DE500096689A /* 3DTransform */ = {
+			isa = PBXGroup;
+			children = (
+				C3A7B8231D52DE500096689A /* WY3DTransformView.h */,
+				C3A7B8241D52DE500096689A /* WY3DTransformView.m */,
+				C3A7B8261D52DF680096689A /* WY3DTransformContainView.xib */,
+				C3A7B8281D52E3A00096689A /* WY3DTransformViewController.h */,
+				C3A7B8291D52E3A00096689A /* WY3DTransformViewController.m */,
+			);
+			path = 3DTransform;
+			sourceTree = "<group>";
+		};
 		C3D4B55F1D4B4B3F00DCCC67 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +117,7 @@
 		C3D4B56A1D4B4B3F00DCCC67 /* WYAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				C3A7B8221D52DE500096689A /* 3DTransform */,
 				C3A7B8181D52D1B00096689A /* EmitterAnimation */,
 				C3D4B56E1D4B4B3F00DCCC67 /* AppDelegate.h */,
 				C3D4B56F1D4B4B3F00DCCC67 /* AppDelegate.m */,
@@ -197,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A7B8271D52DF680096689A /* WY3DTransformContainView.xib in Resources */,
 				C3D4B57B1D4B4B3F00DCCC67 /* LaunchScreen.storyboard in Resources */,
 				C3D4B5781D4B4B3F00DCCC67 /* Assets.xcassets in Resources */,
 				C3D4B5761D4B4B3F00DCCC67 /* Main.storyboard in Resources */,
@@ -219,9 +241,11 @@
 			files = (
 				C3A7B8211D52D2810096689A /* WYAUpwardEmitterView.m in Sources */,
 				C3D4B5731D4B4B3F00DCCC67 /* ViewController.m in Sources */,
+				C3A7B82A1D52E3A00096689A /* WY3DTransformViewController.m in Sources */,
 				C3A7B8201D52D2810096689A /* WYAEmitterView.m in Sources */,
 				C3D4B5701D4B4B3F00DCCC67 /* AppDelegate.m in Sources */,
 				C3D4B56D1D4B4B3F00DCCC67 /* main.m in Sources */,
+				C3A7B8251D52DE500096689A /* WY3DTransformView.m in Sources */,
 				C3A7B81B1D52D1EE0096689A /* WYAEmitterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

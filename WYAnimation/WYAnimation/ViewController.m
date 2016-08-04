@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "WYAEmitterViewController.h"
+#import "WY3DTransformViewController.h"
 
 @interface ViewController () <UITableViewDelegate,
                               UITableViewDataSource>
@@ -41,6 +42,9 @@
         case 0:
             title = @"Emitter(粒子动画)";
             break;
+        case 1:
+            title = @"3DTransform(3D变换)";
+            break;
         default:
             break;
     }
@@ -49,7 +53,7 @@
 
 #pragma mark - table view delegate and datasource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return 2;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -73,6 +77,9 @@
     switch (indexPath.row) {
         case 0:
             instance = [WYAEmitterViewController class];
+            break;
+        case 1:
+            instance = [WY3DTransformViewController class];
             break;
         default:
             break;
