@@ -1,32 +1,35 @@
 //
-//  ViewController.m
-//  CAEmitterLayerDemo
+//  WYAEmitterViewController.m
+//  WYAnimation
 //
-//  Created by yingwang on 16/7/29.
+//  Created by yingwang on 16/8/4.
 //  Copyright © 2016年 yingwang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WYAEmitterViewController.h"
 #import "WYAUpwardEmitterView.h"
 
-@interface ViewController ()
+@interface WYAEmitterViewController ()
 
 @property (nonatomic, strong) WYAEmitterView *emitterView;
 
 @end
 
-@implementation ViewController
+@implementation WYAEmitterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     
     _emitterView = [[WYAUpwardEmitterView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:_emitterView];
     
     
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 70, 40)];
+    btn.center = CGPointMake(CGRectGetWidth(self.view.frame)/2, CGRectGetHeight(self.view.frame)-20);
     [btn addTarget:self action:@selector(startAnimtaion:) forControlEvents:UIControlEventTouchUpInside];
     [btn setTitle:@"start" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.view addSubview:btn];
 }
 

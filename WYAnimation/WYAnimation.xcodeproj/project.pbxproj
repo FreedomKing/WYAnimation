@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3A7B81B1D52D1EE0096689A /* WYAEmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7B81A1D52D1EE0096689A /* WYAEmitterViewController.m */; };
+		C3A7B8201D52D2810096689A /* WYAEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7B81D1D52D2810096689A /* WYAEmitterView.m */; };
+		C3A7B8211D52D2810096689A /* WYAUpwardEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7B81F1D52D2810096689A /* WYAUpwardEmitterView.m */; };
 		C3D4B56D1D4B4B3F00DCCC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B56C1D4B4B3F00DCCC67 /* main.m */; };
 		C3D4B5701D4B4B3F00DCCC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B56F1D4B4B3F00DCCC67 /* AppDelegate.m */; };
 		C3D4B5731D4B4B3F00DCCC67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B5721D4B4B3F00DCCC67 /* ViewController.m */; };
 		C3D4B5761D4B4B3F00DCCC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D4B5741D4B4B3F00DCCC67 /* Main.storyboard */; };
 		C3D4B5781D4B4B3F00DCCC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D4B5771D4B4B3F00DCCC67 /* Assets.xcassets */; };
 		C3D4B57B1D4B4B3F00DCCC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D4B5791D4B4B3F00DCCC67 /* LaunchScreen.storyboard */; };
-		C3D4B58A1D4B4D6900DCCC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B5891D4B4D6900DCCC67 /* main.m */; };
-		C3D4B58D1D4B4D6900DCCC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B58C1D4B4D6900DCCC67 /* AppDelegate.m */; };
-		C3D4B5901D4B4D6900DCCC67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B58F1D4B4D6900DCCC67 /* ViewController.m */; };
-		C3D4B5931D4B4D6900DCCC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D4B5911D4B4D6900DCCC67 /* Main.storyboard */; };
-		C3D4B5951D4B4D6900DCCC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D4B5941D4B4D6900DCCC67 /* Assets.xcassets */; };
-		C3D4B5981D4B4D6900DCCC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D4B5961D4B4D6900DCCC67 /* LaunchScreen.storyboard */; };
-		C3D4B5A01D4B4E7E00DCCC67 /* WYAUpwardEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B59F1D4B4E7E00DCCC67 /* WYAUpwardEmitterView.m */; };
-		C3D4B5A31D4B4FEB00DCCC67 /* WYAEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4B5A21D4B4FEB00DCCC67 /* WYAEmitterView.m */; };
 		C3D4B5A51D4B5AA900DCCC67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D4B5A41D4B5AA900DCCC67 /* QuartzCore.framework */; };
 		C3D4B5A71D4B5AB500DCCC67 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D4B5A61D4B5AB500DCCC67 /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3A7B8191D52D1EE0096689A /* WYAEmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAEmitterViewController.h; sourceTree = "<group>"; };
+		C3A7B81A1D52D1EE0096689A /* WYAEmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAEmitterViewController.m; sourceTree = "<group>"; };
+		C3A7B81C1D52D2810096689A /* WYAEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAEmitterView.h; sourceTree = "<group>"; };
+		C3A7B81D1D52D2810096689A /* WYAEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAEmitterView.m; sourceTree = "<group>"; };
+		C3A7B81E1D52D2810096689A /* WYAUpwardEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAUpwardEmitterView.h; sourceTree = "<group>"; };
+		C3A7B81F1D52D2810096689A /* WYAUpwardEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAUpwardEmitterView.m; sourceTree = "<group>"; };
 		C3D4B5681D4B4B3F00DCCC67 /* WYAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D4B56C1D4B4B3F00DCCC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3D4B56E1D4B4B3F00DCCC67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,19 +38,6 @@
 		C3D4B57A1D4B4B3F00DCCC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3D4B57C1D4B4B3F00DCCC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D4B5861D4B4D6900DCCC67 /* CAEmitterLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAEmitterLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3D4B5891D4B4D6900DCCC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C3D4B58B1D4B4D6900DCCC67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C3D4B58C1D4B4D6900DCCC67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3D4B58E1D4B4D6900DCCC67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3D4B58F1D4B4D6900DCCC67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C3D4B5921D4B4D6900DCCC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3D4B5941D4B4D6900DCCC67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3D4B5971D4B4D6900DCCC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C3D4B5991D4B4D6900DCCC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3D4B59E1D4B4E7E00DCCC67 /* WYAUpwardEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAUpwardEmitterView.h; sourceTree = "<group>"; };
-		C3D4B59F1D4B4E7E00DCCC67 /* WYAUpwardEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAUpwardEmitterView.m; sourceTree = "<group>"; };
-		C3D4B5A11D4B4FEB00DCCC67 /* WYAEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAEmitterView.h; sourceTree = "<group>"; };
-		C3D4B5A21D4B4FEB00DCCC67 /* WYAEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAEmitterView.m; sourceTree = "<group>"; };
 		C3D4B5A41D4B5AA900DCCC67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C3D4B5A61D4B5AB500DCCC67 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -74,13 +62,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3A7B8181D52D1B00096689A /* EmitterAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C3A7B8191D52D1EE0096689A /* WYAEmitterViewController.h */,
+				C3A7B81A1D52D1EE0096689A /* WYAEmitterViewController.m */,
+				C3A7B81C1D52D2810096689A /* WYAEmitterView.h */,
+				C3A7B81D1D52D2810096689A /* WYAEmitterView.m */,
+				C3A7B81E1D52D2810096689A /* WYAUpwardEmitterView.h */,
+				C3A7B81F1D52D2810096689A /* WYAUpwardEmitterView.m */,
+			);
+			path = EmitterAnimation;
+			sourceTree = "<group>";
+		};
 		C3D4B55F1D4B4B3F00DCCC67 = {
 			isa = PBXGroup;
 			children = (
 				C3D4B5A61D4B5AB500DCCC67 /* OpenGLES.framework */,
 				C3D4B5A41D4B5AA900DCCC67 /* QuartzCore.framework */,
 				C3D4B56A1D4B4B3F00DCCC67 /* WYAnimation */,
-				C3D4B5871D4B4D6900DCCC67 /* CAEmitterLayerDemo */,
 				C3D4B5691D4B4B3F00DCCC67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +97,7 @@
 		C3D4B56A1D4B4B3F00DCCC67 /* WYAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				C3A7B8181D52D1B00096689A /* EmitterAnimation */,
 				C3D4B56E1D4B4B3F00DCCC67 /* AppDelegate.h */,
 				C3D4B56F1D4B4B3F00DCCC67 /* AppDelegate.m */,
 				C3D4B5711D4B4B3F00DCCC67 /* ViewController.h */,
@@ -116,42 +117,6 @@
 				C3D4B56C1D4B4B3F00DCCC67 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C3D4B5871D4B4D6900DCCC67 /* CAEmitterLayerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				C3D4B58B1D4B4D6900DCCC67 /* AppDelegate.h */,
-				C3D4B58C1D4B4D6900DCCC67 /* AppDelegate.m */,
-				C3D4B58E1D4B4D6900DCCC67 /* ViewController.h */,
-				C3D4B58F1D4B4D6900DCCC67 /* ViewController.m */,
-				C3D4B59D1D4B4DD600DCCC67 /* View */,
-				C3D4B5911D4B4D6900DCCC67 /* Main.storyboard */,
-				C3D4B5941D4B4D6900DCCC67 /* Assets.xcassets */,
-				C3D4B5961D4B4D6900DCCC67 /* LaunchScreen.storyboard */,
-				C3D4B5991D4B4D6900DCCC67 /* Info.plist */,
-				C3D4B5881D4B4D6900DCCC67 /* Supporting Files */,
-			);
-			path = CAEmitterLayerDemo;
-			sourceTree = "<group>";
-		};
-		C3D4B5881D4B4D6900DCCC67 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C3D4B5891D4B4D6900DCCC67 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C3D4B59D1D4B4DD600DCCC67 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C3D4B59E1D4B4E7E00DCCC67 /* WYAUpwardEmitterView.h */,
-				C3D4B59F1D4B4E7E00DCCC67 /* WYAUpwardEmitterView.m */,
-				C3D4B5A11D4B4FEB00DCCC67 /* WYAEmitterView.h */,
-				C3D4B5A21D4B4FEB00DCCC67 /* WYAEmitterView.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +207,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3D4B5981D4B4D6900DCCC67 /* LaunchScreen.storyboard in Resources */,
-				C3D4B5951D4B4D6900DCCC67 /* Assets.xcassets in Resources */,
-				C3D4B5931D4B4D6900DCCC67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A7B8211D52D2810096689A /* WYAUpwardEmitterView.m in Sources */,
 				C3D4B5731D4B4B3F00DCCC67 /* ViewController.m in Sources */,
+				C3A7B8201D52D2810096689A /* WYAEmitterView.m in Sources */,
 				C3D4B5701D4B4B3F00DCCC67 /* AppDelegate.m in Sources */,
 				C3D4B56D1D4B4B3F00DCCC67 /* main.m in Sources */,
+				C3A7B81B1D52D1EE0096689A /* WYAEmitterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,11 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3D4B5901D4B4D6900DCCC67 /* ViewController.m in Sources */,
-				C3D4B5A31D4B4FEB00DCCC67 /* WYAEmitterView.m in Sources */,
-				C3D4B58D1D4B4D6900DCCC67 /* AppDelegate.m in Sources */,
-				C3D4B5A01D4B4E7E00DCCC67 /* WYAUpwardEmitterView.m in Sources */,
-				C3D4B58A1D4B4D6900DCCC67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,22 +248,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				C3D4B57A1D4B4B3F00DCCC67 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		C3D4B5911D4B4D6900DCCC67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3D4B5921D4B4D6900DCCC67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C3D4B5961D4B4D6900DCCC67 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3D4B5971D4B4D6900DCCC67 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -460,6 +404,7 @@
 				C3D4B5811D4B4B3F00DCCC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3D4B59A1D4B4D6900DCCC67 /* Build configuration list for PBXNativeTarget "CAEmitterLayerDemo" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +413,7 @@
 				C3D4B59C1D4B4D6900DCCC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

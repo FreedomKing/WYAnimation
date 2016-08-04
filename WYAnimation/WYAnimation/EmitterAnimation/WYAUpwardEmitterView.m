@@ -45,7 +45,7 @@
         //5.initialize cell
         CAEmitterCell *cell = [CAEmitterCell emitterCell];
         //6.set cell image
-        cell.contents = (__bridge id)[[UIImage imageNamed:@"gift_dog_30x30"] CGImage];
+        cell.contents = (__bridge id)[[UIImage imageNamed:@"bone_30x30"] CGImage];
         
         cell.birthRate = 5;
         cell.lifetime =  10;
